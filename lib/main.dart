@@ -125,6 +125,25 @@ class MyApp extends StatelessWidget {
                             ),
                           ),
                         ),
+                        Card(
+                          color: Colors.blueGrey[900],
+                          margin: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                          child: SizedBox(
+                            child: ListTile(
+                              leading: Icon(
+                                Icons.location_on,
+                                color: Colors.white,
+                              ),
+                              title: Text(
+                                'Nairobi, Kenya',
+                                style: TextStyle(
+                                  fontFamily: 'ShareTechMono',
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
